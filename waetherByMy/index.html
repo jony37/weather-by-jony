@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Прогноз погоды</title>
+    <!-- csss link -->
+    <link rel="stylesheet" href="./assest/css/main.css" />
+    <link rel="stylesheet" href="./assest/css/reset.css" />
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="title">Прогноз погоды</h1>
+      <form class="form">
+        <input
+          class="input"
+          type="text"
+          placeholder="Введите название города"
+        />
+        <button class="btn search" type="button">Показать</button>
+        <button type="button" class="geolocationBtn">My geolocation</button>
+      </form>
+    </header>
+    <h1 class="error">Invalid City name</h1>
+    <div class="card">
+      <div class="d-flex">
+        <div class="citeTime">
+          <div>
+            <h1 class="card-city city">London</h1>
+            <p class="city-time">15:17 7 november</p>
+          </div>
+          <div class="card-value">
+            <p class="weather">11 °C</p>
+          </div>
+        </div>
+
+        <div class="weatherInfor">
+          <div class="col">
+            <div>
+              <p class="humidity">50%</p>
+              <p>Humidity</p>
+            </div>
+            <img src="./assest/images/humidity.png" alt="humidity" />
+          </div>
+          <div class="col mt">
+            <div>
+              <p class="wind">250 km/h</p>
+              <p>Wind Speed</p>
+            </div>
+            <img src="./assest/images/wind.png" alt="wind" />
+          </div>
+
+          <div class="col mt">
+            <div>
+              <p class="cloud">250 km/h</p>
+              <p>Cloud</p>
+            </div>
+            <i class="fa-solid fa-cloud"></i>
+          </div>
+        </div>
+
+        <div class="img">
+            <img src="./assest/images/clear.png" alt="" class="weatherIcon">
+        </div>
+
+        <div class="d-flex">
+            <div class="col-3">
+                <div class="col-img">
+                    <img src="./assest/images/clear.png" alt="" class="tomorow1Img">
+                </div>
+                <p class="tomorowData1">07.07.2007</p>
+                <h1 class="tomorowWeather1">7 °C</h1>
+                <div class="d-flex">
+                    <div class="humidityt-tomorow d-flex">
+                        <p class="tomorow-humidity">7%</p>
+                        <img src="./assest/images/humidity.png" alt="">
+                    </div>
+   
+                    <div class="Wind-tomorow d-flex">
+                        <p class="tomorow-wind">77 km/h</p>
+                        <i class="fa-solid fa-cloud"></i>
+                    </div>
+  
+
+                    
+                </div>
+            </div>
+
+            <div class="col-3">
+                <div class="col-img">
+                    <img src="./assest/images/clear.png" alt="" class="tomorow2Img">
+                </div>
+                <p class="tomorowData3">07.07.2007</p>
+                <h1 class="tomorowWeather3">7 °C</h1>
+                <div class="d-flex">
+                    <div class="humidityt-tomorow d-flex">
+                        <p class="tomorow-humidity3">7%</p>
+                        <img src="./assest/images/humidity.png" alt="">
+                    </div>
+   
+                    <div class="Wind-tomorow d-flex">
+                        <p class="tomorow-wind3">77 km/h</p>
+                        <i class="fa-solid fa-cloud"></i>
+                    </div>
+  
+
+                    
+                </div>
+            </div>
+
+            <div class="col-3">
+                <div class="col-img">
+                    <img src="./assest/images/clear.png" alt="" class="tomorow2Img">
+                </div>
+                <p class="tomorowData4">07.07.2007</p>
+                <h1 class="tomorowWeather4">7 °C</h1>
+                <div class="d-flex">
+                    <div class="humidityt-tomorow d-flex">
+                        <p class="tomorow-humidity4">7%</p>
+                        <img src="./assest/images/humidity.png" alt="">
+                    </div>
+   
+                    <div class="Wind-tomorow d-flex">
+                        <p class="tomorow-wind4">77 km/h</p>
+                        <i class="fa-solid fa-cloud"></i>
+                    </div>
+  
+
+                    
+                </div>
+            </div>
+
+        
+            
+        </div>
+      </div>
+
+    </div>
+    <script src="./assest/js/app.js"></script>
+  </body>
+</html>
